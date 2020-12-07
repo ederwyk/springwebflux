@@ -5,6 +5,8 @@ API de exemplo da implementação do Spring Webflux, que permite trabalhar com p
 
 * Informar url do mongoDB na propriedade **spring.data.mongodb.uri** em [application.properties](/src/main/resources/application.properties)
 
+* Para executar o exemplo de cliente fazendo uma requisição para uma API rest, **client.dog.url** em [application.properties](/src/main/resources/application.properties)
+
 ## Technologies
 
 * Java (>= 11)
@@ -39,7 +41,6 @@ dog: {
 >>>
 `curl POST /dog \
 --data-raw '{
-  "id": "",
   "name": ""
 }'`
 
